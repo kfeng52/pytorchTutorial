@@ -28,7 +28,7 @@ z.backward()
 print(x.grad) # dz/dx
 
 # Generally speaking, torch.autograd is an engine for computing vector-Jacobian product
-# It computes partial derivates while applying the chain rule
+# It computes partial derivates while applying the chain rules
 
 # -------------
 # Model with non-scalar output:
